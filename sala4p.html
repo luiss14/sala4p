@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 3em;
+            margin-top: 50px;
+        }
+        .button-container {
+            margin-top: 50px;
+        }
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 10px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+        #acerca {
+            margin-top: 50px;
+            padding: 20px;
+            background-color: #ffffff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .profile-container {
+            margin-top: 50px;
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .profile-card {
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin: 10px;
+            width: 250px;
+            text-align: center;
+        }
+        .profile-card h3 {
+            margin: 10px 0;
+        }
+        .profile-card p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cajero</h1>
+    <div class="button-container">
+        <a href="https://github.com/luiss14" class="button" target="_blank">GitHub</a>
+        <a href="https://www.youtube.com/@clownyzot" class="button" target="_blank">Tutorial</a>
+        <a href="#acerca" class="button">Acerca de</a>
+        <a href="https://docs.google.com/document/d/1eF1BXhkGohudhiGePXek9fOZzT-Mxn-xVbsgBeyS7FE/edit?usp=drivesdk" class="button" target="_blank">Instrucciones</a>
+    </div>
+    <div id="acerca">
+        <h2>Acerca de</h2>
+        <p>Somos SALA 4, proyecto "Cajero". Este simula el cobro a un cliente en una tienda. No solo simula, sino que también permite descargar el código para que todos tengan la posibilidad de tener el cajero con su base de datos.</p>
+    </div>
+    <div class="profile-container">
+        <div class="profile-card">
+            <h3>Luis Sebastián Ramírez García</h3>
+            <p>Edad: 16</p>
+        </div>
+        <div class="profile-card">
+            <h3>Henry Eleonay Bran Esquivel</h3>
+            <p>Edad: 17</p>
+        </div>
+        <div class="profile-card">
+            <h3>Jefferson Ciriaco Espinoza Covox</h3>
+            <p>Edad: 16</p>
+        </div>
+        <div class="profile-card">
+            <h3>Miguel Ángel Méndez Soza</h3>
+            <p>Edad: 21</p>
+        </div>
+        <div class="profile-card">
+            <h3>Vilma Yamileth Chan Pérez</h3>
+            <p>Edad: 16</p>
+        </div>
+    </div>
+</body>
+</html>
